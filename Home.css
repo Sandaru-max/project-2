@@ -102,6 +102,9 @@ margin: 30px;
 margin-top: 60px;
 text-align:center
 }
+.courses h1{
+    font-size: 30px;
+}
 .courses p{
     text-align: center;
     font-weight: 300;
@@ -119,6 +122,9 @@ text-align:center
     background-color: #e3c9c7;
     border-radius: 10px;
     transition: all 0.5s;
+}
+.course h1{
+    font-size: 20px;
 }
 .course:hover{
     box-shadow: 5px 5px 5px 5px  #605e5e;
