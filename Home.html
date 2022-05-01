@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University of Peradeniya</title>
+    <link rel="stylesheet" href="Home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+<nav><i id="menu" class="fa fa-bars" onclick="showMenu()"></i>
+    <a href="Home.html"><img id="logo" src="imgaes/logo.png" alt="logo"></a>
+    <nav class="nav-link">
+       
+      
+
+        <ul id="menuSlide"> <i id="close" class="fa fa-times" onclick="hideMenu()"></i>
+           
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">REGISTRATION</a></li>
+            <li><a href="">CONTACT</a></li>
+            <li><a href="">MAPS</a></li>
+        </ul> 
+    </nav>  
+</nav> 
+<div class="text-box">
+        <h1>
+          Lorem ipsum dolor sit amet.
+        </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ipsum sunt, reprehenderit consequuntur enim quibusdam distinctio doloremque sequi at praesentium perspiciatis nesciunt quam aspernatur magni recusandae ut commodi aperiam nisi.</p>
+        <input type="button" value="Visit Us for more details">
+    </div>
+
+    </section>
+    <script>
+        var menuSlide = document.getElementById("menuSlide");
+       
+        function hideMenu(){
+            menuSlide.style.right="-200px";
+            
+        }
+        function showMenu(){
+            menuSlide.style.right="0px";
+             
+        }
+    </script>
+   
+</body>
+
+</html>
