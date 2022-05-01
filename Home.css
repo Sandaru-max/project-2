@@ -1,9 +1,10 @@
-*{
+    *{
     margin: 0;
     padding: 0;
      font-family: 'Poppins', sans-serif;
-     overflow: hidden;
-     
+     overflow-x: hidden;
+    
+
 }
 .header{
     min-height: 100vh;
@@ -32,7 +33,7 @@ nav{
 .nav-link ul li{
     padding: 10px;
     list-style: none;
-    
+
 }
 .nav-link ul li a {
     color: aliceblue;
@@ -56,7 +57,7 @@ nav{
     height: 2px;
     display: block;
     margin: auto;
-    
+
 }
 .text-box{
     position: absolute;
@@ -92,6 +93,37 @@ i{
     visibility: hidden;
     color: #ffffff;
 }
+
+
+/* courses */
+.courses {
+
+margin: 30px;
+margin-top: 60px;
+text-align:center
+}
+.courses p{
+    text-align: center;
+    font-weight: 300;
+}
+.box{
+    margin: 20px;
+    margin-top: 40px;
+  display: flex ;
+  justify-content: space-between;
+}
+.course{
+    margin:20px ;
+    width: 30%;
+    padding: 30px;
+    background-color: #e3c9c7;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.course:hover{
+    box-shadow: 5px 5px 5px 5px  #605e5e;
+    transform: scale(1.04);
+}
 @media(max-width :700px) {
     .text-box h1{
         font-size: 30px;
@@ -107,8 +139,10 @@ i{
         top: 0;
         right: -200px;
         transition:  0.5s;
+        
     }
     .nav-link ul li{
+       
         padding: 30px 0px 0px 30px;
     }
 #close{
@@ -128,8 +162,16 @@ i{
     cursor: pointer;
 }
 .nav-link ul  {
-   
+
     padding-right: 0px;
-    
+
+}
+.box{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.course{
+    width: 60%;
 }
 }
